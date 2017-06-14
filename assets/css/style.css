@@ -10,10 +10,10 @@
 .welcome {
     background-image: url(../img/header.jpg);
     width: 100%;
+    height: 812px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 37px;
 }
 
 .nav-mio {
@@ -34,6 +34,7 @@
 .profile-image img {
     margin-left: 36%;
     width: 23%;
+    margin-top: 8%;
 }
 
 .dropdown {
@@ -50,8 +51,9 @@
     padding-top: 20px;
     padding-bottom: 9px;
     text-align: center;
-    font-size: 25px;
-    font-weight: 900;
+    font-size: 35px;
+    font-weight: 3000;
+    font-family: 'Oswald', sans-serif;
 }
 
 .border {
@@ -76,8 +78,6 @@
 
 .our-values i {
     font-size: 50px;
-    margin-right: 10px;
-    width: 20px;
 }
 
 
@@ -96,8 +96,15 @@
 
 .cont {
     padding: 100px 0;
-    margin-bottom: 10px;
+    margin-bottom: 21%;
     color: white;
+}
+
+.cont h2 {
+    text-align: center;
+    font-size: 44px;
+    font-family: 'Overpass', sans-serif;
+    padding-top: 8px;
 }
 
 .team {
@@ -105,6 +112,9 @@
     border: solid white;
     width: 20%;
     margin-left: 38%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 
@@ -112,7 +122,7 @@
 
 .people {
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: #f7f7f7;
 }
 
 .text,
@@ -120,8 +130,27 @@ h1,
 h5 {
     padding-bottom: 23px;
     padding-top: 0px;
+    text-align: center;
+    font-weight: 900;
 }
 
 .people img {
     width: 50%;
 }
+
+
+/*PRESS SECTION 5*/
+
+.text,
+h2 {
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+
+/* Carousel Styles */
