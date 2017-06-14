@@ -1,0 +1,104 @@
+/*navbar*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    background-image: url(../img/header.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 37px;
+}
+
+.nav-mio {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+}
+
+.profile-image img {
+    margin-left: 36%;
+    width: 23%;
+}
+
+
+/*OUR VALUES
+
+.our-values h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.our-values h5 {
+    padding-top: 0;
+}
+
+.options {
+    margin-left: 28%;
+    margin-top: 20%;
+}*/
+
+.our-values i {
+    font-size: 70px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+
+/*section 3*/
+
+.container-greatfood {
+    background-image: url(../img/bg-quote.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 37px;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.cont {
+    padding: 100px 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.team {
+    text-align: center;
+    border: solid white;
+    width: 20%;
+    margin-left: 38%;
+}
+
+
+/*section 4 people*/
+
+.people {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.text,
+h1,
+h5 {
+    padding-bottom: 23px;
+    padding-top: 0px;
+}
+
+.people img {
+    width: 50%;
+}
