@@ -1,9 +1,11 @@
-/*navbar*/
-
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
+
+
+/*navbar*/
 
 .welcome {
     background-image: url(../img/header.jpg);
@@ -34,25 +36,46 @@
     width: 23%;
 }
 
+.dropdown {
+    font-size: 50px;
+    color: white;
+    margin-left: 48%;
+    margin-bottom: 0;
+}
 
-/*OUR VALUES
+
+/*OUR VALUES}*/
 
 .our-values h1 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 9px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.border {
+    border-bottom: double #c3b598;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 0%;
+    margin-bottom: 41px;
 }
 
 .our-values h5 {
     padding-top: 0;
+    text-align: center;
 }
 
 .options {
     margin-left: 28%;
-    margin-top: 20%;
-}*/
+    margin-top: 0%;
+    font-style: italic;
+    font-weight: 700;
+}
 
 .our-values i {
-    font-size: 70px;
+    font-size: 50px;
     margin-right: 10px;
     width: 20px;
 }
@@ -62,7 +85,7 @@
 
 .container-greatfood {
     background-image: url(../img/bg-quote.jpg);
-    width: 100%;
+    height: 700px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
