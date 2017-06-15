@@ -5,6 +5,13 @@
 }
 
 
+/*responsive*/
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+
 /*making all the borders*/
 
 .border {
@@ -29,7 +36,6 @@
 
 .nav-mio {
     background-color: transparent;
-    : none;
 }
 
 .navbar-default .navbar-brand {
@@ -57,6 +63,10 @@
     color: white;
     margin-left: 48%;
     margin-bottom: 0;
+}
+
+.hide {
+    display: none;
 }
 
 
@@ -133,38 +143,85 @@
 }
 
 
-/*section 4 people*/
+/*section 4 CHEFS*/
 
-.people {
-    text-align: center;
-    background-color: #f7f7f7;
+.chefs {
+    background-color: #F7F7F7;
 }
 
-.text,
-h1,
-h5 {
-    padding-bottom: 23px;
-    padding-top: 0px;
-    text-align: center;
+.people-title {
+    color: black;
+    margin-top: 90px;
     font-weight: 900;
 }
 
-.people img {
-    width: 50%;
+.people-second-title {
+    font-size: 19px;
+}
+
+.master-chef {
+    position: relative;
+    margin-top: 56px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.chef-text {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    z-index: 3;
+    display: inline-block;
+}
+
+.fixed-text {
+    color: #fff;
+    text-align: center;
+    margin-top: 97px;
+    margin-left: 40px;
+}
+
+.linecarousel {
+    width: 73px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+em {
+    color: white;
+    font-size: 15px;
+    display: inherit;
+}
+
+.social-media {
+    display: inline-block;
+}
+
+.social-media i {
+    color: #fff;
+}
+
+.container-fluid {
+    padding-bottom: 70px;
+    background-color: #f7f7f7;
 }
 
 
 /*PRESS SECTION 5*/
 
-.text,
-h2 {
+.text h2 {
     font-weight: 900;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 .container {
     margin-top: 20px;
+}
+
+.press {
+    padding-bottom: 50px;
 }
 
 
@@ -289,6 +346,7 @@ h2 {
 
 .breakfast-container {
     border: solid 1px #c3b598;
+    margin-bottom: 20px;
 }
 
 .breakfast-schedule {
@@ -304,10 +362,138 @@ h2 {
     padding-bottom: 20px;
 }
 
+.btn-default {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #fff;
+    border-color: black;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.btn-group>.btn:first-child {
+    margin-left: 84%;
+}
+
 
 /*MENU*/
 
 .menu {
     width: 100%;
     background-color: white;
+}
+
+.menu-text {
+    text-align: center;
+    padding-top: 52px;
+}
+
+.paragraph {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #fff;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.carousel-container {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 10%;
+}
+
+.carousel-indicators {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*VITALITY SECTION 5*/
+
+.vitality {
+    width: 100%;
+    background-color: #222222;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+}
+
+.buy {
+    color: white;
+    font-weight: 600;
+}
+
+
+/*footer*/
+
+footer h2 {
+    color: #b7b7b7;
+    font-size: 30px;
+}
+
+.contact {
+    color: #b7b7b7;
+    font-size: 20px;
+}
+
+footer {
+    background-image: url(../img/bg-footer.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.media-footer {
+    padding-top: 8%;
+    padding-bottom: 0;
+}
+
+.col-social {
+    color: #b7b7b7;
+    font-size: 50px;
+    padding-top: 84px;
+    padding-bottom: 0;
+}
+
+.themes {
+    color: #b7b7b7;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 1281px) {
+    .hide {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .navbar-default {
+        background-color: #222;
+        padding-bottom: 22px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+    .navbar-default {
+        background-color: #222;
+        padding-bottom: 22px;
+    }
 }
